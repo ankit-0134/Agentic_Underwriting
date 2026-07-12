@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+pdfplumber
+pymupdf
+openai
+python-dotenv
+Pillow
+pdf2image
+langchain-openai
+langchain-chroma
+langchain-core
+chromadb

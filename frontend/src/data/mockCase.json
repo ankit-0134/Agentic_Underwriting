@@ -1,0 +1,243 @@
+{
+  "profile": {
+    "personal": {
+      "application_number": "APP-2026-88421",
+      "full_name": "Rajesh Kumar Sharma",
+      "date_of_birth": "12-Mar-1980",
+      "age": 45,
+      "gender": "Male",
+      "marital_status": "Married",
+      "number_of_dependents": 2,
+      "address": "B-204, Sunshine Apartments, Andheri West",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400058",
+      "nationality": "Indian"
+    },
+    "occupation": {
+      "designation": "Software Engineer",
+      "employer": "Tata Consultancy Services",
+      "nature_of_work": "Office-based, backend development",
+      "works_underground": false,
+      "works_offshore": false,
+      "works_at_height": false,
+      "works_with_explosives": false,
+      "armed_occupation": false
+    },
+    "avocations": {
+      "scuba_diving": false,
+      "mountaineering": false,
+      "private_aviation": false,
+      "parachuting": false,
+      "hang_gliding": false,
+      "hot_air_ballooning": false,
+      "motorsports": false
+    },
+    "lifestyle": {
+      "smoker": false,
+      "tobacco_type": null,
+      "tobacco_quit_months": null,
+      "alcohol_use": "Occasional",
+      "alcohol_frequency_per_week": 1,
+      "marijuana_use": false,
+      "cannabis_frequency": null,
+      "positive_drug_screen": false,
+      "drunk_driving_incidents_last_12_months": 0
+    },
+    "financial_summary": {
+      "annual_income": 1200000,
+      "annual_income_display": "Rs. 12,00,000",
+      "monthly_net_salary": 85000,
+      "total_monthly_emi": 35000,
+      "emi_to_income_ratio": "41.2%",
+      "sum_assured": 10000000,
+      "sum_assured_display": "Rs. 1,00,00,000",
+      "income_coverage_ratio": "8.3x",
+      "cibil_score": 705
+    },
+    "policy": {
+      "sum_assured": 10000000,
+      "policy_term_years": 20,
+      "existing_insurance": true,
+      "existing_coverage_amount": 2000000
+    },
+    "health_declaration": {
+      "blood_pressure": "128/82 mmHg",
+      "bmi": 24.5,
+      "spo2": "98%",
+      "pulse_rate": "74 bpm",
+      "diabetes": true,
+      "diabetes_type": "Type II",
+      "diabetes_since_year": 2021,
+      "hbA1c": "6.8 %",
+      "total_cholesterol": "210 mg/dL",
+      "cholesterol_ratio": "4.2",
+      "liver_ast": "28 U/L",
+      "liver_alt": "32 U/L",
+      "liver_bilirubin": "0.9 mg/dL",
+      "thyroid_tsh": "2.5 mIU/L",
+      "kidney_creatinine": "1.1 mg/dL",
+      "kidney_egfr": "95",
+      "hypertension": false,
+      "heart_disease": false,
+      "kidney_disease": false,
+      "liver_disease": false,
+      "cancer": false,
+      "any_surgery_last_5_years": false,
+      "any_hospitalization_last_3_years": false,
+      "current_medications": ["Metformin 500mg"]
+    },
+    "family_history": {
+      "father_heart_disease": true,
+      "father_age_at_death": 58,
+      "mother_diabetes": false,
+      "mother_alive": true,
+      "siblings_heart_disease": true,
+      "siblings_cancer": false
+    },
+    "driving_record": {
+      "DUI_convictions_last_12_months": 0,
+      "reckless_driving_convictions": 0,
+      "moving_violations_last_3_years": 1,
+      "licence_suspended_ever": false,
+      "accidents_last_12_months": 0
+    }
+  },
+
+  "risk_classification": {
+    "financial": [
+      {
+        "feature": "Income Coverage Ratio",
+        "value": "8.3x (age band 41-50, max 20x)",
+        "risk": "LOW",
+        "reason": "Sum assured of Rs. 1,00,00,000 against annual income of Rs. 12,00,000 gives a coverage ratio of 8.3x, well within the 20x maximum permitted for the 41-50 age band."
+      },
+      {
+        "feature": "EMI to Income Ratio",
+        "value": "41.2% (Rs. 35,000 / Rs. 85,000)",
+        "risk": "MEDIUM",
+        "reason": "Monthly EMI of Rs. 35,000 against net salary of Rs. 85,000 gives a ratio of 41.2%, which falls in the 40%-55% medium-risk band, indicating moderate financial stress."
+      },
+      {
+        "feature": "CIBIL Score",
+        "value": "705",
+        "risk": "MEDIUM",
+        "reason": "CIBIL score of 705 falls in the 650-749 'good' band — acceptable, but below the 750+ threshold considered low risk."
+      }
+    ],
+    "medical": [
+      {
+        "feature": "Blood Pressure",
+        "value": "128/82 mmHg",
+        "risk": "MEDIUM",
+        "reason": "Systolic of 128 is within the low-risk range, but diastolic of 82 exceeds the 80 threshold, placing the reading in the medium-risk band (130-145 / 80-90) for age 18-55."
+      },
+      {
+        "feature": "Cholesterol & Lipid Profile",
+        "value": "Total 210 mg/dL, ratio 4.2",
+        "risk": "MEDIUM",
+        "reason": "Total cholesterol of 210 mg/dL falls within the 200-239 mg/dL medium-risk band."
+      },
+      {
+        "feature": "BMI",
+        "value": "24.5",
+        "risk": "MEDIUM",
+        "reason": "BMI of 24.5 falls in the 23.0-27.4 medium-risk band per the Indian population BMI chart."
+      },
+      {
+        "feature": "Diabetes",
+        "value": "Type II, HbA1c 6.8% (controlled)",
+        "risk": "MEDIUM",
+        "reason": "Type II diabetes, diagnosed and on treatment, with HbA1c of 6.8% — below the 7.0% threshold, classified as well-controlled / medium risk."
+      },
+      {
+        "feature": "Family History — CAD",
+        "value": "Father MI at 58; sibling heart disease",
+        "risk": "HIGH",
+        "reason": "Father died of a heart attack at age 58 (before age 60), and a sibling also has heart disease — multiple early cardiac events in first-degree relatives escalate this to high risk."
+      },
+      {
+        "feature": "Kidney Function",
+        "value": "Creatinine 1.1 mg/dL, eGFR 95",
+        "risk": "LOW",
+        "reason": "Creatinine of 1.1 mg/dL and eGFR of 95 are both within the normal / low-risk range."
+      },
+      {
+        "feature": "Liver Function",
+        "value": "AST/ALT within normal range",
+        "risk": "LOW",
+        "reason": "AST/ALT levels are within 1x the normal range, indicating no liver function concern."
+      },
+      {
+        "feature": "ECG",
+        "value": "Normal sinus rhythm, HR 74 bpm",
+        "risk": "LOW",
+        "reason": "Normal sinus rhythm at 74 bpm, within the 60-100 bpm low-risk range, with no arrhythmia or conduction abnormality detected."
+      },
+      {
+        "feature": "Thyroid Function",
+        "value": "TSH 2.5 mIU/L",
+        "risk": "LOW",
+        "reason": "TSH of 2.5 mIU/L falls within the 0.5-4.0 mIU/L normal range."
+      }
+    ],
+    "lifestyle": [
+      {
+        "feature": "Occupation",
+        "value": "Software Engineer (office-based)",
+        "risk": "LOW",
+        "reason": "Software Engineer is an office-based, desk-based role with no physical hazard exposure — classified low risk."
+      },
+      {
+        "feature": "Avocations",
+        "value": "No hazardous avocations or adventure activities declared",
+        "risk": "LOW",
+        "reason": "Applicant did not declare participation in scuba diving, mountaineering, aviation, parachuting, hang gliding, ballooning, or motorsports — no avocation risk to assess."
+      },
+      {
+        "feature": "Smoking / Nicotine",
+        "value": "Non-smoker, nicotine-free",
+        "risk": "LOW",
+        "reason": "Applicant is a declared non-smoker with no nicotine use, placing them in the lowest risk tier."
+      },
+      {
+        "feature": "Alcohol Use",
+        "value": "Occasional — 2 units/week",
+        "risk": "MEDIUM",
+        "reason": "Applicant reports occasional alcohol use at roughly 2 units/week, which falls in the 1-2 times per week medium-risk band."
+      },
+      {
+        "feature": "Drunk Driving",
+        "value": "0 incidents in last 12 months",
+        "risk": "LOW",
+        "reason": "Zero drunk driving incidents recorded in the last 12 months."
+      },
+      {
+        "feature": "Accidents",
+        "value": "0 accident(s) in last 12 months",
+        "risk": "LOW",
+        "reason": "No driving accidents recorded in the last 12 months, within the 0-accidents low-risk band."
+      }
+    ],
+    "information_mismatch": [
+      {
+        "feature": "Name Mismatch",
+        "value": "Application: Rajesh Kumar Sharma | PAN/ITR: Rajesh K. Sharma",
+        "risk": "LOW",
+        "reason": "Name variation is a common short-form spelling difference; first name, surname, and PAN verification all match. No conflict flagged."
+      },
+      {
+        "feature": "Age Mismatch",
+        "value": "Application: 45 yrs | ITR (DOB-derived): 45 yrs",
+        "risk": "LOW",
+        "reason": "Age calculated from date of birth matches exactly across the application form and ITR — within the 1-year tolerance for rounding."
+      },
+      {
+        "feature": "Income Mismatch",
+        "value": "ITR: Rs. 12,00,000 | Salary Slip (annualized): Rs. 9,00,000",
+        "risk": "HIGH",
+        "reason": "ITR annual income differs from the salary-slip-annualized income by 25%, exceeding the 20% conflict threshold. Bank credit patterns should be reviewed to confirm the applicant's actual income source before finalizing terms."
+      }
+    ]
+  }
+}
